@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #ec715f;
+  width: 100%;
+}
+
+.header-content {
+  width: 1024px;
+  height: 70px;
+  margin: 0 auto;
+  line-height: 70px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+a {
+  margin-right: auto;
+}
+
+.title-img {
+  height: 70px;
+}
+
+ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-list {
+  list-style: none;
+  font-size: 16px;
+  color: #fafafa;
+  padding: 0 30px;
+}
+
+.main-visual {
+  height: 650px;
+  width: 100%;
+  background-image: url(img/mv.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-visual-title {
+  padding: 200px 0 10px;
+  color: #fafafa;
+  font-size: 64px;
+  text-align: center;
+}
+
+.main-visual-text {
+  color: #fafafa;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* portfolio */
+
+.portfolio {
+  background-color: #eceff1;
+  width: 100%;
+}
+
+.portfolio-content {
+  width: 980px;
+  margin: 0 auto;
+  padding-top: 90px;
+  text-align: center;
+}
+
+.portfolio-title {
+  font-size: 32px;
+  color: #000000;
+}
+
+.portfolio-text {
+  margin: 30px auto;
+}
+
+.image-pic {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 90px;
+}
+.pic {
+  width: 300px;
+  height: 250px;
+  margin: 0 10px 10px 0;
+}
+
+.pic:nth-child(1) {
+  background-image: url(img/sketch.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.pic:nth-child(2) {
+  background-image: url(img/websuku.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.pic:nth-child(3) {
+  background-image: url(img/write.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-right: 0;
+}
+
+.pic:nth-child(4) {
+  background-image: url(img/webcamp.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.pic:nth-child(5) {
+  background-image: url(img/talk.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.pic:nth-child(6) {
+  background-image: url(img/webcamp-mother.png);
+  background-size: cover;
+  background-position: center;
+  margin-right: 0;
+}
+
+/* feature */
+
+.feature {
+  width: 100%;
+}
+
+.feature-content {
+  width: 980px;
+  margin: 0 auto;
+  padding-top: 90px;
+  text-align: center;
+}
+
+.feature-title {
+  font-size: 32px;
+  color: #000000;
+}
+
+.feature-text {
+  margin: 30px auto;
+  font-size: 16px;
+  color: #000000;
+}
+
+.strength {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 90px;
+  display: flex;
+  justify-content: center;
+}
+
+.introduction {
+  width: 320px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.introduction:nth-child(3) {
+  margin-right: 0;
+}
+
+i {
+  font-size: 60px;
+}
+.strength-title {
+  font-size: 20px;
+  color: #000000;
+  padding: 10px 0;
+}
+
+.strength-text {
+  font-size: 16px;
+  color: #000000;
+}
+
+/* profile */
+
+.profile {
+  width: 100%;
+  background-color: #eceff1;
+}
+
+.profile-content {
+  width: 1024px;
+  margin: 0 auto;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  text-align: center;
+}
+
+.profile-title {
+  font-size: 32px;
+  color: #000000;
+}
+
+.profile-text {
+  margin: 30px auto;
+  font-size: 16px;
+  color: #000000;
+}
+
+.profile-box {
+  display: flex;
+  justify-content: center;
+}
+
+.my-icon {
+  width: 512px;
+}
+.icon-image {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+.self-introduction {
+  width: 512px;
+}
+
+.detail {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.detail-text {
+  font-size: 16px;
+  color: #000000;
+}
+
+.detail-text:nth-child(1) {
+  margin-bottom: 20px;
+}
+
+.self-introduction > div {
+  text-align: left;
+}
+
+/* contact */
+.contact {
+  width: 100%;
+}
+
+.contact-content {
+  width: 800px;
+  margin: 0 auto;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  text-align: center;
+}
+
+.contact-title {
+  font-size: 32px;
+  color: #000000;
+}
+
+.contact-text {
+  margin: 30px auto;
+  font-size: 16px;
+  color: #000000;
+}
+
+.contact-box {
+  display: flex;
+  justify-content: center;
+}
+
+.mail-tel {
+  width: 400px;
+}
+
+.mail > h4 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.tel > h4 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+
